@@ -1,31 +1,31 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: hryjosn
+repo: sleep-on-the-couch-status
+
+# Assign the auto-opened downtime issue so it actually reaches a person.
+assignees:
+  - hryjosn
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: 今晚睡沙發？首頁
+    url: https://sleep-on-the-couch.lol/
+  - name: ads.txt
+    url: https://sleep-on-the-couch.lol/ads.txt
+    # A missing NEXT_PUBLIC_ADSENSE_CLIENT still serves 200 with an empty body,
+    # so the status code alone cannot catch it — match the publisher id instead.
+    __dangerous__body_down_if_text_missing: "pub-2527742934092353"
+  - name: 結算頁
+    url: https://sleep-on-the-couch.lol/result
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /sleep-on-the-couch-status
+  logoUrl: https://sleep-on-the-couch.lol/icon-192.png
+  name: 今晚睡沙發？服務狀態
+  introTitle: "**今晚睡沙發？** 的服務狀態"
+  introMessage: 每 5 分鐘從 GitHub Actions 量測一次。掛掉會自動開 Issue，恢復會自動關閉。
   navbar:
-    - title: Status
+    - title: 狀態
       href: /
+    - title: 回到遊戲
+      href: https://sleep-on-the-couch.lol/
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
