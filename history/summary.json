@@ -22,18 +22,20 @@
     "url": "https://sleep-on-the-couch.lol/ads.txt",
     "icon": "https://icons.duckduckgo.com/ip3/sleep-on-the-couch.lol.ico",
     "slug": "ads-txt",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 517,
-    "timeDay": 617,
-    "timeWeek": 517,
-    "timeMonth": 517,
-    "timeYear": 517,
-    "dailyMinutesDown": {}
+    "status": "up",
+    "uptime": "97.26%",
+    "uptimeDay": "89.63%",
+    "uptimeWeek": "97.26%",
+    "uptimeMonth": "97.26%",
+    "uptimeYear": "97.26%",
+    "time": 495,
+    "timeDay": 539,
+    "timeWeek": 495,
+    "timeMonth": 495,
+    "timeYear": 495,
+    "dailyMinutesDown": {
+      "2026-09-11": 149
+    }
   },
   {
     "name": "結算頁",
