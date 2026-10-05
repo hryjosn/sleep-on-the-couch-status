@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 844,
-    "timeDay": 1381,
-    "timeWeek": 1165,
-    "timeMonth": 844,
-    "timeYear": 844,
+    "time": 819,
+    "timeDay": 139,
+    "timeWeek": 1173,
+    "timeMonth": 819,
+    "timeYear": 819,
     "dailyMinutesDown": {}
   },
   {
@@ -23,16 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/sleep-on-the-couch.lol.ico",
     "slug": "ads-txt",
     "status": "up",
-    "uptime": "99.60%",
+    "uptime": "99.62%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.60%",
-    "uptimeYear": "99.60%",
-    "time": 967,
-    "timeDay": 1525,
-    "timeWeek": 1142,
-    "timeMonth": 967,
-    "timeYear": 967,
+    "uptimeMonth": "99.62%",
+    "uptimeYear": "99.62%",
+    "time": 973,
+    "timeDay": 1150,
+    "timeWeek": 1055,
+    "timeMonth": 973,
+    "timeYear": 973,
     "dailyMinutesDown": {
       "2026-09-11": 149
     }
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 764,
-    "timeDay": 1110,
-    "timeWeek": 1070,
-    "timeMonth": 764,
-    "timeYear": 764,
+    "time": 772,
+    "timeDay": 971,
+    "timeWeek": 1050,
+    "timeMonth": 772,
+    "timeYear": 772,
     "dailyMinutesDown": {}
   }
 ]
